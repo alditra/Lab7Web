@@ -30,7 +30,7 @@
                         <a class="btn" href="<?= base_url('/admin/artikel/edit/' .
                             $row['id']); ?>">Ubah</a>
                         <a class="btn btn-danger" onclick="return confirm('Yakinmenghapus data?');" href="<?= base_url('/admin/artikel/delete/' .
-                    $row['id']); ?>">Hapus</a>
+                            $row['id']); ?>">Hapus</a>
                     </td>
                 </tr>
             <?php endforeach; else: ?>
